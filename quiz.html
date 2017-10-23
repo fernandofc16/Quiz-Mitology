@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Quiz</title>
+    <meta name="author" content="Fernando Ferreira Cunha" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style_quiz.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+        <h1>Quiz Mitologia Greco-Romana</h1>
+    </header>
+    <nav>
+          <div id="progressBar">
+            <ul>
+              <li id="q1"></li>
+              <li id="q2"></li>
+              <li id="q3"></li>
+              <li id="q4"></li>
+              <li id="q5"></li>
+              <li id="q6"></li>
+              <li id="q7"></li>
+              <li id="q8"></li>
+              <li id="q9"></li>
+              <li id="q10"></li>
+            </ul>
+          </div>
+          <p id="textPorcent">0%</p>
+          <div id="divTime">
+              <p id="timeRemain">Tempo Restante: 15s</p>
+          </div>
+    </nav>
+    <div id="mainContainer">
+      <div id="questions">
+          <p id="textQuestion">TEXTO DA PERGUNTA VEM AQUI</p>
+          <img id="imageQuestion" src="img/default_img.jpg" rel="Imagem relacionada a pergunta do Quiz">
+      </div>
+      <div id="answers">
+          <form id="inputAnswer">
+              FORMULÁRIO VEM AQUI
+          </form>
+          <button onclick="submitAnswer()">Próximo</button>
+      </div>
+    </div>
+  </body>
+</html>

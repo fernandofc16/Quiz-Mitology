@@ -1,0 +1,63 @@
+body {
+  background-image: url('img/olimpo2.jpg');
+}
+
+header h1 {
+  font-size: 4em;
+  text-align: center;
+}
+
+#pointsResult, #textResult {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#imageFeedback {
+  width: 20em;
+  height: 20em;
+}
+
+#textResult {
+  margin-top: -5em;
+  height: 35em;
+  align-items: center;
+}
+
+#textResult div {
+  width: 35%;
+  text-align: center;
+}
+
+#pointsResult {
+  position: absolute;
+  bottom: 1em;
+  width: 99%;
+}
+
+#pointsResult div {
+  width: 12em;
+  text-align: center;
+  border: 5px solid #000;
+  border-radius: 100%;
+  margin-top: 2em;
+}
+
+#textResult p {
+  font-size: 2em;
+}
+
+.gold {
+  color: rgb(205, 165, 0);
+  border: 5px solid #FFF;
+}
+
+.bigText {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.minorText {
+  font-size: 1.5em;
+  font-weight: bold;
+}
